@@ -1,0 +1,92 @@
+h2{
+    font-size: 80%;
+}
+p{
+    font-size: 70%;
+}
+.bgcontainer{
+    background-image: url("./images/background.png");
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: 100% auto;
+    /* margin-top: 30px; */
+}
+
+.nav_title{
+    text-decoration:none;
+    color: black;
+    font-weight: 500;
+    margin-right: 15px;
+}
+.nav_title:hover{
+    color: blue;
+}
+
+.extra_cost_text{
+    font-size:14px;
+}
+.hiring_text{
+    font-size:14px;
+    font-weight: 800;
+}
+.service-image{
+    width: 70%;
+    height: auto;
+
+}
+.ess_serv_head{
+    text-align: center;
+}
+.ess_serv_para{
+    text-align: center;
+    padding: 0px 10px;  
+}
+.footer_position_text{
+    position: absolute;
+    top: 75px;
+    left: 40px;
+}
+.parastyle{
+    text-align: center;
+    padding-top: 10px;
+}
+.how_work_cont{
+    width: 100%;
+}
+
+.badge{
+    height: 30px;
+    width: 30px;
+}
+
+@media screen and (min-width:400px) {
+    
+    .extra_cost_text{
+        font-size:16px;
+    }
+    .hiring_text{
+        font-size:16px;
+        font-weight: 800;
+    }
+    .ess_serv_head{
+        text-align: left;
+    }
+    .ess_serv_para{
+        text-align: left;
+        padding: 0px;
+    }
+    .footer_position_text{
+        position: absolute;
+        top: 90px;
+        left: 40px;
+    }
+    .parastyle{
+        text-align: left;
+        
+    }
+    .how_work_cont{
+        width: 50%;
+    }
+}
+
+
